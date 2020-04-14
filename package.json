@@ -1,0 +1,30 @@
+{
+  "name": "accenture_express_auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon locals.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^2.0.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "hbs": "^4.1.1",
+    "http-errors": "^1.7.3",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.10.0",
+    "passport-azure-ad": "^4.2.1",
+    "simple-oauth2": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
